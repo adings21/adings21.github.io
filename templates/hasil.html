@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hasil Pengiriman Paket</title>
+	<style>
+		body {
+			background-color: #282b30;
+			color: #fff;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			max-width: 400px;
+			margin: 50px auto;
+		}
+
+		h1 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+
+		button {
+			margin-top: 20px;
+			padding: 10px 20px;
+			background-color: #7289da;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			transition: background-color 0.2s ease;
+		}
+
+		button:hover {
+			background-color: #5a68a4;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Hasil Pengiriman</h1>
+		<p>{{.layanan}}</p>
+		<button onclick="location.href='/'">Kembali</button>
+	</div>
+</body>
+</html>
